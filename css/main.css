@@ -1,3 +1,77 @@
+@import 'https://fonts.googleapis.com/css?family=Work+Sans';
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #335D7E;
+    color: white;
+}
+
+.container {
+    width: 500px;
+    background-color: #6D5C7D;
+    padding: 25px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
 h1 {
-    color: aqua;
+    color: #F27280;
+    border-bottom: 1px solid white;
+}
+
+.wrong {
+    background-color: red;
+}
+
+input.correct[type="radio"]+label {
+    background-color: green;
+}
+
+.submit_button, .next {
+    background: white;
+    border: none;
+    font-size: 1em;
+    color: black;
+    border-radius: 3px;
+    margin-top: .5em;
+}
+
+.submit_button:hover, .next:hover {
+    background-color: #cecccc;
+    cursor: pointer;
+}
+
+.submit_button, .next, .correct_answer, .wrong_answer {
+    display: inline;
+    margin-top: 15px;
+}
+
+.next, .message {
+    margin-left: 25px;
+}
+
+.correct_answer, .wrong_answer {
+    font-size: 1.2em;
+    margin-top: .5em;
+}
+
+.wrong_answer {
+    color: red;
+}
+
+.correct_answer {
+    color: greenyellow;
+}
+.check {
+    color: greenyellow;
+    font-size: 1em;
+}
+.times {
+    color: red;
+    font-size: 1em;
+}
+
+.finished {
+    margin-top: 20px;
 }
