@@ -1,5 +1,14 @@
 $('document').ready(function () {
+    $('#quiz').css("display", "none");
+    
     writeQuestion(count);
+    
+    $(".start_button").click(function(){
+            $('#quiz').show();
+        $('#start').hide();
+        });
+    
+    
     var rightAnswer = 0;
     $("body").delegate(".submit_button", "click", function () {
         var solution = questions[count].solution;

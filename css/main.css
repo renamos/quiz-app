@@ -28,7 +28,7 @@ input.correct[type="radio"]+label {
     background-color: green;
 }
 
-.submit_button, .next {
+.submit_button, .next, .start_button {
     background: white;
     border: none;
     font-size: 1em;
@@ -37,7 +37,7 @@ input.correct[type="radio"]+label {
     margin-top: .5em;
 }
 
-.submit_button:hover, .next:hover {
+.submit_button:hover, .next:hover, .start_button:hover {
     background-color: #cecccc;
     cursor: pointer;
 }

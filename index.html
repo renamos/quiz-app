@@ -5,22 +5,23 @@
     <meta charset="UTF-8">
     <title>Quiz</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" href="/font-awesome/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/font-awesome/font-awesome-4.6.3/css/font-awesome.min.css"> </head>
 
-    </head>
 <body>
-  <div class="container">
-    <h1>Animals Quiz</h1>
-        <div class="question_count">Question #<span class="counter"></span></div>
-        <div class="questions"></div>
-        <div class="answers"></div>
-        <span class="submit"></span>
-        <span class="message"></span>
-        <div class="finished"></div>
-      
+    <div class="container">
+        <h1>Animals Quiz</h1>
+        <div id="start">
+            <p id="description">How well do you know your animals? Take this animals quiz and prove that you're a true zoologist!</p>
+            <button class="start_button">Start</button>
+        </div>
+        <div id="quiz">
+            <div class="question_count">Question #<span class="counter"></span></div>
+            <div class="questions"></div>
+            <div class="answers"></div> <span class="submit"></span> <span class="message"></span>
+            <div class="finished"></div>
+        </div>
     </div>
-    
-    <script src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="js/questions.js"></script>
     <script src="/js/framework.js"></script>
     <script src="js/app.js"></script>
